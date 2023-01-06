@@ -3,7 +3,7 @@ class Solution:
         ans = []
         for i in nums:
             ans.append(i)
+            
+        ans.extend(nums)
         
-        for j in nums:
-            ans.append(j)
         return ans
